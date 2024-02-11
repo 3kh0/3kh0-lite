@@ -1,0 +1,181 @@
+
+Lick.png
+size: 697,697
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lick/body
+  rotate: true
+  xy: 481, 39
+  size: 136, 115
+  orig: 197, 381
+  offset: 32, 29
+  index: -1
+Lick/cheeks
+  rotate: true
+  xy: 593, 292
+  size: 148, 62
+  orig: 197, 381
+  offset: 24, 54
+  index: -1
+Lick/eyes_01
+  rotate: true
+  xy: 584, 180
+  size: 110, 37
+  orig: 197, 381
+  offset: 45, 97
+  index: -1
+Lick/eyes_02
+  rotate: false
+  xy: 355, 5
+  size: 100, 20
+  orig: 197, 381
+  offset: 49, 114
+  index: -1
+Lick/eyes_03
+  rotate: true
+  xy: 627, 73
+  size: 106, 21
+  orig: 197, 381
+  offset: 47, 113
+  index: -1
+Lick/eyes_04
+  rotate: true
+  xy: 598, 69
+  size: 109, 27
+  orig: 197, 381
+  offset: 46, 107
+  index: -1
+Lick/eyes_05
+  rotate: true
+  xy: 623, 181
+  size: 109, 37
+  orig: 197, 381
+  offset: 46, 97
+  index: -1
+Lick/l_hand
+  rotate: false
+  xy: 630, 461
+  size: 39, 33
+  orig: 197, 381
+  offset: 114, 46
+  index: -1
+Lick/l_pupil
+  rotate: true
+  xy: 2, 2
+  size: 10, 13
+  orig: 197, 381
+  offset: 72, 109
+  index: -1
+Lick/mouth
+  rotate: false
+  xy: 650, 146
+  size: 26, 33
+  orig: 197, 381
+  offset: 85, 66
+  index: -1
+Lick/r_hand
+  rotate: false
+  xy: 598, 34
+  size: 39, 33
+  orig: 197, 381
+  offset: 41, 47
+  index: -1
+Lick/r_pupil
+  rotate: false
+  xy: 197, 174
+  size: 11, 13
+  orig: 197, 381
+  offset: 117, 109
+  index: -1
+Lick/top
+  rotate: false
+  xy: 671, 462
+  size: 24, 32
+  orig: 197, 381
+  offset: 87, 139
+  index: -1
+Poof/poof_01
+  rotate: true
+  xy: 355, 27
+  size: 141, 124
+  orig: 246, 257
+  offset: 53, 56
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 450, 316
+  size: 141, 124
+  orig: 246, 257
+  offset: 53, 56
+  index: -1
+Poof/poof_03
+  rotate: false
+  xy: 442, 177
+  size: 140, 137
+  orig: 246, 257
+  offset: 54, 62
+  index: -1
+Poof/poof_04
+  rotate: true
+  xy: 197, 13
+  size: 155, 156
+  orig: 246, 257
+  offset: 49, 50
+  index: -1
+Poof/poof_05
+  rotate: true
+  xy: 2, 14
+  size: 173, 193
+  orig: 246, 257
+  offset: 33, 35
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 474, 496
+  size: 200, 199
+  orig: 246, 257
+  offset: 23, 22
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 250, 472
+  size: 222, 223
+  orig: 246, 257
+  offset: 12, 13
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 189
+  size: 238, 247
+  orig: 246, 257
+  offset: 4, 5
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 438
+  size: 246, 257
+  orig: 246, 257
+  offset: 0, 0
+  index: -1
+cage
+  rotate: true
+  xy: 242, 170
+  size: 149, 198
+  orig: 197, 381
+  offset: 24, 20
+  index: -1
+cage_back
+  rotate: true
+  xy: 250, 321
+  size: 149, 198
+  orig: 197, 381
+  offset: 24, 20
+  index: -1
+shadow
+  rotate: false
+  xy: 474, 442
+  size: 154, 52
+  orig: 197, 381
+  offset: 22, 6
+  index: -1

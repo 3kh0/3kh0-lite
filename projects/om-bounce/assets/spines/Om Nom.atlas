@@ -1,0 +1,90 @@
+
+Om Nom.png
+size: 221,221
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/Player/Character/body
+  rotate: false
+  xy: 2, 17
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Images/Player/Character/body_2
+  rotate: false
+  xy: 124, 139
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Images/Player/Character/body_3
+  rotate: false
+  xy: 124, 57
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Images/Player/Character/damage_glow
+  rotate: false
+  xy: 2, 99
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Images/Player/Character/l_hand
+  rotate: false
+  xy: 116, 25
+  size: 22, 30
+  orig: 120, 120
+  offset: 61, 23
+  index: -1
+Images/Player/Character/l_leg
+  rotate: false
+  xy: 140, 32
+  size: 28, 23
+  orig: 120, 120
+  offset: 16, 23
+  index: -1
+Images/Player/Character/l_leg_2
+  rotate: false
+  xy: 170, 32
+  size: 28, 23
+  orig: 120, 120
+  offset: 16, 23
+  index: -1
+Images/Player/Character/r_hand
+  rotate: true
+  xy: 116, 2
+  size: 21, 30
+  orig: 120, 120
+  offset: 37, 23
+  index: -1
+Images/Player/Character/r_leg
+  rotate: false
+  xy: 148, 7
+  size: 28, 23
+  orig: 120, 120
+  offset: 76, 23
+  index: -1
+Images/Player/Character/r_leg_2
+  rotate: false
+  xy: 178, 7
+  size: 28, 23
+  orig: 120, 120
+  offset: 76, 23
+  index: -1
+Images/Player/Character/shadow
+  rotate: true
+  xy: 92, 2
+  size: 95, 22
+  orig: 120, 120
+  offset: 12, 15
+  index: -1
+Images/Player/Character/top
+  rotate: true
+  xy: 2, 3
+  size: 12, 28
+  orig: 120, 120
+  offset: 54, 59
+  index: -1

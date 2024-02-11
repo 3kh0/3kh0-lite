@@ -1,0 +1,9 @@
+CACHE MANIFEST
+#v1 - 2014-12-22
+FALLBACK:
+//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js js/fallback/jquery.min.js
+//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js js/fallback/underscore-min.js
+NETWORK:
+//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js
+//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js
+//static.addtoany.com/menu/page.js

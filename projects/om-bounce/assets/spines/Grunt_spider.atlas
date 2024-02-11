@@ -1,0 +1,139 @@
+
+Grunt_spider.png
+size: 332,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grunt_spider/eyes_01
+  rotate: false
+  xy: 176, 204
+  size: 45, 24
+  orig: 99, 190
+  offset: 27, 38
+  index: -1
+Grunt_spider/eyes_02
+  rotate: false
+  xy: 123, 75
+  size: 43, 10
+  orig: 99, 190
+  offset: 28, 52
+  index: -1
+Grunt_spider/eyes_03
+  rotate: false
+  xy: 236, 190
+  size: 47, 13
+  orig: 99, 190
+  offset: 26, 49
+  index: -1
+Grunt_spider/eyes_04
+  rotate: true
+  xy: 146, 26
+  size: 47, 20
+  orig: 99, 190
+  offset: 26, 42
+  index: -1
+Grunt_spider/eyes_05
+  rotate: false
+  xy: 127, 203
+  size: 47, 25
+  orig: 99, 190
+  offset: 26, 37
+  index: -1
+Grunt_spider/eyes_06
+  rotate: true
+  xy: 310, 184
+  size: 47, 14
+  orig: 99, 190
+  offset: 26, 48
+  index: -1
+Grunt_spider/head
+  rotate: true
+  xy: 168, 4
+  size: 81, 78
+  orig: 99, 190
+  offset: 9, 11
+  index: -1
+Grunt_spider/l_pupil
+  rotate: true
+  xy: 146, 15
+  size: 9, 10
+  orig: 99, 190
+  offset: 40, 48
+  index: -1
+Grunt_spider/platform
+  rotate: false
+  xy: 230, 205
+  size: 78, 26
+  orig: 99, 190
+  offset: 11, 3
+  index: -1
+Grunt_spider/r_pupil
+  rotate: false
+  xy: 146, 3
+  size: 9, 10
+  orig: 99, 190
+  offset: 50, 48
+  index: -1
+Poof/poof_01
+  rotate: false
+  xy: 73, 9
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 248, 39
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_03
+  rotate: true
+  xy: 2, 2
+  size: 70, 69
+  orig: 123, 129
+  offset: 27, 31
+  index: -1
+Poof/poof_04
+  rotate: true
+  xy: 236, 104
+  size: 78, 79
+  orig: 123, 129
+  offset: 24, 25
+  index: -1
+Poof/poof_05
+  rotate: false
+  xy: 236, 233
+  size: 87, 97
+  orig: 123, 129
+  offset: 16, 18
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 127, 230
+  size: 101, 100
+  orig: 123, 129
+  offset: 11, 11
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 123, 87
+  size: 111, 112
+  orig: 123, 129
+  offset: 6, 7
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 74
+  size: 119, 125
+  orig: 123, 129
+  offset: 2, 2
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 201
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1

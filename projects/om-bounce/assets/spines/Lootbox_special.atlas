@@ -1,0 +1,83 @@
+
+Lootbox_special.png
+size: 328,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grunt_spider/platform
+  rotate: true
+  xy: 296, 248
+  size: 78, 26
+  orig: 99, 190
+  offset: 11, 3
+  index: -1
+Lootbox/lootbox_special
+  rotate: false
+  xy: 2, 2
+  size: 68, 66
+  orig: 99, 190
+  offset: 16, 11
+  index: -1
+Poof/poof_01
+  rotate: false
+  xy: 72, 5
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 236, 84
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_03
+  rotate: true
+  xy: 225, 11
+  size: 70, 69
+  orig: 123, 129
+  offset: 27, 31
+  index: -1
+Poof/poof_04
+  rotate: false
+  xy: 145, 2
+  size: 78, 79
+  orig: 123, 129
+  offset: 24, 25
+  index: -1
+Poof/poof_05
+  rotate: false
+  xy: 236, 149
+  size: 87, 97
+  orig: 123, 129
+  offset: 16, 18
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 127, 226
+  size: 101, 100
+  orig: 123, 129
+  offset: 11, 11
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 123, 83
+  size: 111, 112
+  orig: 123, 129
+  offset: 6, 7
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 70
+  size: 119, 125
+  orig: 123, 129
+  offset: 2, 2
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 197
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1

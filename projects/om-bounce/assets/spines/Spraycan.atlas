@@ -1,0 +1,174 @@
+
+Spraycan.png
+size: 332,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Poof/poof_01
+  rotate: false
+  xy: 230, 150
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 230, 85
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_03
+  rotate: true
+  xy: 2, 2
+  size: 70, 69
+  orig: 123, 129
+  offset: 27, 31
+  index: -1
+Poof/poof_04
+  rotate: false
+  xy: 138, 35
+  size: 78, 79
+  orig: 123, 129
+  offset: 24, 25
+  index: -1
+Poof/poof_05
+  rotate: false
+  xy: 240, 233
+  size: 87, 97
+  orig: 123, 129
+  offset: 16, 18
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 127, 116
+  size: 101, 100
+  orig: 123, 129
+  offset: 11, 11
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 127, 218
+  size: 111, 112
+  orig: 123, 129
+  offset: 6, 7
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 74
+  size: 119, 125
+  orig: 123, 129
+  offset: 2, 2
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 201
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1
+Spraycan/body_01
+  rotate: false
+  xy: 73, 3
+  size: 63, 69
+  orig: 99, 190
+  offset: 17, 11
+  index: -1
+Spraycan/body_02
+  rotate: true
+  xy: 303, 106
+  size: 38, 11
+  orig: 99, 190
+  offset: 29, 73
+  index: -1
+Spraycan/body_03
+  rotate: false
+  xy: 249, 12
+  size: 17, 16
+  orig: 99, 190
+  offset: 39, 78
+  index: -1
+Spraycan/eyes_01
+  rotate: false
+  xy: 240, 215
+  size: 73, 16
+  orig: 99, 190
+  offset: 11, 31
+  index: -1
+Spraycan/eyes_02
+  rotate: true
+  xy: 218, 41
+  size: 73, 9
+  orig: 99, 190
+  offset: 11, 38
+  index: -1
+Spraycan/eyes_03
+  rotate: false
+  xy: 229, 51
+  size: 73, 14
+  orig: 99, 190
+  offset: 11, 33
+  index: -1
+Spraycan/eyes_04
+  rotate: false
+  xy: 229, 67
+  size: 73, 16
+  orig: 99, 190
+  offset: 11, 31
+  index: -1
+Spraycan/headband_back
+  rotate: false
+  xy: 229, 30
+  size: 66, 19
+  orig: 99, 190
+  offset: 14, 52
+  index: -1
+Spraycan/headband_bow
+  rotate: false
+  xy: 218, 8
+  size: 29, 20
+  orig: 99, 190
+  offset: 69, 55
+  index: -1
+Spraycan/headband_front
+  rotate: true
+  xy: 303, 146
+  size: 67, 27
+  orig: 99, 190
+  offset: 13, 39
+  index: -1
+Spraycan/l_pupil
+  rotate: false
+  xy: 324, 137
+  size: 6, 7
+  orig: 99, 190
+  offset: 35, 35
+  index: -1
+Spraycan/mouth_01
+  rotate: true
+  xy: 316, 120
+  size: 24, 6
+  orig: 99, 190
+  offset: 35, 25
+  index: -1
+Spraycan/mouth_02
+  rotate: false
+  xy: 268, 23
+  size: 24, 5
+  orig: 99, 190
+  offset: 35, 24
+  index: -1
+Spraycan/platform
+  rotate: false
+  xy: 138, 7
+  size: 78, 26
+  orig: 99, 190
+  offset: 11, 3
+  index: -1
+Spraycan/r_pupil
+  rotate: false
+  xy: 315, 224
+  size: 7, 7
+  orig: 99, 190
+  offset: 53, 35
+  index: -1

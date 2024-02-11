@@ -1,0 +1,146 @@
+
+Spider.png
+size: 348,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Poof/poof_01
+  rotate: false
+  xy: 252, 88
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_02
+  rotate: true
+  xy: 252, 15
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_03
+  rotate: false
+  xy: 236, 153
+  size: 70, 69
+  orig: 123, 129
+  offset: 27, 31
+  index: -1
+Poof/poof_04
+  rotate: false
+  xy: 2, 9
+  size: 78, 79
+  orig: 123, 129
+  offset: 24, 25
+  index: -1
+Poof/poof_05
+  rotate: true
+  xy: 153, 2
+  size: 87, 97
+  orig: 123, 129
+  offset: 16, 18
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 236, 246
+  size: 101, 100
+  orig: 123, 129
+  offset: 11, 11
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 123, 103
+  size: 111, 112
+  orig: 123, 129
+  offset: 6, 7
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 90
+  size: 119, 125
+  orig: 123, 129
+  offset: 2, 2
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 217
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1
+Spider/eyes_01
+  rotate: true
+  xy: 207, 252
+  size: 45, 24
+  orig: 99, 190
+  offset: 27, 38
+  index: -1
+Spider/eyes_02
+  rotate: false
+  xy: 123, 91
+  size: 43, 10
+  orig: 99, 190
+  offset: 28, 52
+  index: -1
+Spider/eyes_03
+  rotate: false
+  xy: 256, 231
+  size: 47, 13
+  orig: 99, 190
+  offset: 26, 49
+  index: -1
+Spider/eyes_04
+  rotate: false
+  xy: 207, 224
+  size: 47, 20
+  orig: 99, 190
+  offset: 26, 42
+  index: -1
+Spider/eyes_05
+  rotate: true
+  xy: 207, 299
+  size: 47, 25
+  orig: 99, 190
+  offset: 26, 37
+  index: -1
+Spider/eyes_06
+  rotate: false
+  xy: 127, 251
+  size: 47, 14
+  orig: 99, 190
+  offset: 26, 48
+  index: -1
+Spider/hat
+  rotate: true
+  xy: 127, 267
+  size: 79, 70
+  orig: 99, 190
+  offset: 10, 19
+  index: -1
+Spider/head
+  rotate: true
+  xy: 82, 7
+  size: 81, 69
+  orig: 99, 190
+  offset: 9, 11
+  index: -1
+Spider/l_pupil
+  rotate: false
+  xy: 168, 91
+  size: 9, 10
+  orig: 99, 190
+  offset: 40, 48
+  index: -1
+Spider/platform
+  rotate: false
+  xy: 127, 218
+  size: 78, 26
+  orig: 99, 190
+  offset: 11, 3
+  index: -1
+Spider/r_pupil
+  rotate: false
+  xy: 179, 91
+  size: 9, 10
+  orig: 99, 190
+  offset: 50, 48
+  index: -1

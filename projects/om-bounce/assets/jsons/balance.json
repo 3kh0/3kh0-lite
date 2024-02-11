@@ -1,0 +1,96 @@
+{
+  "levelsPerChapter": 10,
+  "maxChapters": 4,
+  "livesRecoveryMinut": 15,
+  "boostersMaxAmount": 10,
+  "boosterOpens": {
+    "omNom": {"lvl": 4, "wave": 4, "free": 3},
+    "x2Damage": {"lvl": 9, "wave": 1, "free": 3},
+    "shockwave": {"lvl": 14, "wave": 8, "free": 3}
+  },
+  "languages": {
+    "en": "English",
+    "nl": "Nederlands",
+    "fr": "Français",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "no": "Norsk",
+    "es": "Español"
+  },
+  "currency": {
+    "byAD": {
+      "candy": 50,
+      "donut": 1,
+      "amountByTime": 2,
+      "time": 10
+    },
+    "completeLevel_true": {
+      "candy": 0,
+      "donut": 1
+    },
+    "completeLevel_false": {
+      "candy": 0,
+      "donut": 0
+    },
+    "lootBox_true": {
+      "candy": 75,
+      "donut": 0
+    },
+    "lootBox_false": {
+      "candy": 25,
+      "donut": 0
+    }
+  },
+  "scrapBook": [
+    {"omNom": 2},
+    {"x2Damage": 2},
+    {"shockwave": 2},
+    {"omNom": 1, "x2Damage": 1, "shockwave": 1}
+  ],
+  "shop": {
+    "booster": {"currency": "candy", "price": [150, 150, 150], "amount": [1, 1, 1]},
+    "candy": {"currency": "donut", "price": [10, 45, 95, 195], "amount": [1000, 5000, 10000, 20000]},
+    "donut": {"currency": "candy", "price": [100, 600, 2500, 6000], "amount": [5, 20, 150, 400]}
+  },
+  "talents": {
+    "baseList": {
+      "health": 500,
+      "dmgCrit": 0,
+      "dmg": 200,
+      "healAfterWave": 0,
+      "lives": 3,
+      "extraProjectile": 0
+    },
+    "tree_candy": {
+      "1": {"dmg": 15, "cost": 0},
+      "2": {"health": 150, "cost": 20},
+      "3": {"dmg": 15, "cost": 50},
+      "4": {"health": 150, "cost": 100},
+      "5": {"dmg": 15, "cost": 150},
+      "6": {"health": 200, "cost": 250},
+      "7": {"dmg": 30, "cost": 300},
+      "8": {"health": 200, "cost": 350},
+      "9": {"dmg": 30, "cost": 400},
+      "10": {"health": 200, "cost": 450},
+      "11": {"dmg": 50, "cost": 500},
+      "12": {"health": 300, "cost": 550},
+      "13": {"dmg": 60, "cost": 600},
+      "14": {"health": 300, "cost": 650},
+      "15": {"dmg": 60, "cost": 700},
+      "16": {"health": 400, "cost": 900},
+      "17": {"dmg": 75, "cost": 1100},
+      "18": {"health": 400, "cost": 1500},
+      "19": {"dmg": 75, "cost": 2000},
+      "20": {"health": 400, "cost": 3000}
+    },
+    "tree_donut": {
+      "1": {"healAfterWave": 4, "cost": 2},
+      "2": {"lives": 1, "cost": 5},
+      "3": {"dmgCrit": 5, "cost": 7},
+      "4": {"lives": 1, "cost": 8},
+      "5": {"extraProjectile": 5, "cost": 9},
+      "6": {"lives": 1, "cost": 9}
+    }
+  }
+}

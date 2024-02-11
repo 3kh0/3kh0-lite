@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Precision Client | 3kh0</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Precision Client is an instance of Minecraft 1.5.2 that was ported to the web by LAX1DUDE and forked by EtcherFX. This client has custom resource packs and more." name="description" />
+    <meta content="//precisionclient.vercel.app" name="url" />
+    <meta content="EtcherFX" name="author" />
+    <meta content="Precision Client" property="og:title" />
+    <meta content="en-US" property="og:locale" />
+    <meta content="website" property="og:type" />
+    <meta content="//precisionclient.vercel.app" property="og:url" />
+    <meta content="https://cdn.discordapp.com/attachments/952288902494965811/1008211623208570900/unknown.png" property="og:image" />
+    <meta content="Precision Client is an instance of Minecraft 1.5.2 that was ported to the web by LAX1DUDE and forked by EtcherFX. This client has custom resource packs and more." property="og:description" />
+    <script src="classes.js" type="text/javascript"></script>
+    <script type="text/javascript" src="eagswebrtc.js"></script>
+    <script type="text/javascript">
+      function texture() {
+        const texturechoice = prompt(
+          "Choose a texture pack to equip:\n- Default 1.5 [1.5]\n- Default 1.17 [1.17]\n- Bombies 180k [Bombies]\n- Bare Bones [Bones]\n- Modified 1.17 [M1.17]\n- Miami Private [Miami]\n- Nebula [Nebula]\n- Ricefault [Rice] (Not complete)\n- Tightfault [Tight]\n- Walifault [Wali]\nTo select a resource pack, enter the characters from inside the brackets in the box below."
+        );
+
+        let texture = "packs/1.5.epk";
+        if (texturechoice === "1.17") {
+          texture = "packs/1.17.epk";
+        } else if (texturechoice === "Bombies" || texturechoice === "bombies") {
+          texture = "packs/Bombies.epk";
+        } else if (texturechoice === "Bones" || texturechoice === "bones") {
+          texture = "packs/Bones.epk";
+        } else if (texturechoice === "M1.17" || texturechoice === "m1.17") {
+          texture = "packs/M1.17.epk";
+        } else if (texturechoice === "Miami" || texturechoice === "miami") {
+          texture = "packs/Miami.epk";
+        } else if (texturechoice === "Nebula" || texturechoice === "nebula") {
+          texture = "packs/Nebula.epk";
+        } else if (texturechoice === "Rice" || texturechoice === "rice") {
+          texture = "packs/Rice.epk";
+        } else if (texturechoice === "Tight" || texturechoice === "tight") {
+          texture = "packs/Tight.epk";
+        } else if (texturechoice === "Wali" || texturechoice === "Wali") {
+          texture = "packs/Wali.epk";
+        }
+
+        window.addEventListener("load", function () {
+          window.minecraftOpts = [
+            "game_frame",
+            texture,
+            "CgAACQAHc2VydmVycwoAAAAOCAAEbmFtZQAIQXNzcGl4ZWwIAAJpcAAfd3NzOi8vd2ViLmFzc3BpeGVsLm5ldC9DQVBpeGVsLwgAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUADFZhbmlsbGFDcmFmdAgAAmlwAB53c3M6Ly9wbGF5LnZhbmlsbGFjcmFmdHNtcC5vcmcIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAlDcmFmdENsdWUIAAJpcAAad3NzOi8vcGxheS5jcmFmdGNsdWUucm9ja3MIAAtoaWRlQWRkcmVzcwAAAAgABG5hbWUADEFlb24gTmV0d29yawgAAmlwABt3c3M6Ly9hZW9uLm1hZ2F0a2MucmVwbC5jby8IAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAxCbm9nb0NyYWZ0TUMIAAJpcAAbd3NzOi8vcGxheS5ibm9nb2NhcmZ0LmdhbWVzCAALaGlkZUFkZHJlc3MABHRydWUACAAEbmFtZQAIQXl1bmJvb20IAAJpcAAdd3NzOi8vc3VzLnNoaG5vd2lzbm90dGhldGkubWUIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAlTZWFsY3JhZnQIAAJpcAAkd3NzOi8vc2VhbGNyYWZ0LmRkbnMubmV0OjQ0Mi9zZXJ2ZXJzCAALaGlkZUFkZHJlc3MABHRydWUACAAEbmFtZQAJTWVzc0NyYWZ0CAACaXAAFXdzczovL21lc3MuZXUub3JnL3MxLwgAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUAAkIyCAACaXAAFHdzczovL21jLmIyc2VydmVyLnRrCAALaGlkZUFkZHJlc3MABHRydWUACAAEbmFtZQANRXBpYyBTdXJ2aXZhbAgAAmlwACZ3c3M6Ly9wbGF5LnRoZWVwaWNnYW1lci5yZXBsLmNvL3NlcnZlcggAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUAC0RlbHV4ZUNyYWZ0CAACaXAAJXdzczovL3BsYXkuZGVsdXhlY3JhZnQucmVwbC5jby9zZXJ2ZXIIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAZJTUMuUkUIAAJpcAAcd3NzOi8vcGxheS5pbWMucmU6NDQxL3NlcnZlcggAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUAD1RyaWRlbnQgTmV0d29yawgAAmlwABt3c3M6Ly9uZXR3b3JrLnJlbWF0cml4LnRlY2gIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAdVc0NyYWZ0CAACaXAAIHdzczovL2VhZ2xlci5za2VsaXRpbi54eXovc2VydmVyCAALaGlkZUFkZHJlc3MABHRydWUACgAIbWFpbk1lbnUJAAhzcGxhc2hlcwgAAAAOAApEYXJ2aWdsZXQhAA5EYXJ2aWdsb3BoaWxlIQALWW91IEVhZ2xlciEAC1llZWVlZWVlZWUhAAtZb3UgWWVlbGVyIQANRUVFRUVFRUVFRUVFIQALWW91IERhcnZpZyEACVlvdSBWaWdnIQAIOj4gRWNobz8ADHw+IENvb2wgZWNobwAOM2toMC5naXRodWIuaW8ADkVDSE8gT04gVE9QISEhAA4za2gwLCBteSBsb3JkIQAQRmlzaCBpbiBhIGJ1Y2tldAAA",
+          ];
+          (function () {
+            let q = window.location.search;
+            if (typeof q === "string" && q.startsWith("?")) {
+              q = new URLSearchParams(q);
+              const s = q.get("server");
+              if (s) window.minecraftOpts.push(s);
+            }
+          })();
+          main();
+        });
+      }
+      texture();
+    </script>
+  </head>
+
+  <body id="game_frame" style="margin: 0; width: 100vw; height: 100vh;">
+    <script type="application/javascript" src="/js/main.js"></script>
+  </body>
+</html>

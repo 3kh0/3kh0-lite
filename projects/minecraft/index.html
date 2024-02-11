@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <title>eaglercraft | 3kh0</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/x-icon" rel="icon" href="favicon.ico" />
+    <script type="text/javascript" src="classes10.js"></script>
+    <style type="text/css">
+      a.nolink,
+      a.nolink:link,
+      a.nolink:hover,
+      a.nolink:visited {
+        color: white;
+      }
+      a.nolink:active {
+        color: yellow;
+      }
+      #available {
+        position: fixed;
+        background-color: #333333;
+        top: 0px;
+        right: 0px;
+        padding: 10px 30px;
+        width: min(80vw, 250px);
+        color: white;
+      }
+      #available_hide {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        margin: 10px;
+        padding: 2px;
+        font-weight: bold;
+        border: 1px solid white;
+        font-size: 12px;
+        line-height: 12px;
+        cursor: pointer;
+        background-color: #333333;
+      }
+    </style>
+    <script type="text/javascript">
+      window.addEventListener("load", function () {
+        window.minecraftOpts = [
+          "game_frame",
+          "assets.epk",
+          "CgAACQAHc2VydmVycwoAAAAOCAAEbmFtZQAIQXNzcGl4ZWwIAAJpcAAfd3NzOi8vd2ViLmFzc3BpeGVsLm5ldC9DQVBpeGVsLwgAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUADFZhbmlsbGFDcmFmdAgAAmlwAB53c3M6Ly9wbGF5LnZhbmlsbGFjcmFmdHNtcC5vcmcIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAlDcmFmdENsdWUIAAJpcAAad3NzOi8vcGxheS5jcmFmdGNsdWUucm9ja3MIAAtoaWRlQWRkcmVzcwAAAAgABG5hbWUADEFlb24gTmV0d29yawgAAmlwABt3c3M6Ly9hZW9uLm1hZ2F0a2MucmVwbC5jby8IAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAxCbm9nb0NyYWZ0TUMIAAJpcAAbd3NzOi8vcGxheS5ibm9nb2NhcmZ0LmdhbWVzCAALaGlkZUFkZHJlc3MABHRydWUACAAEbmFtZQAIQXl1bmJvb20IAAJpcAAdd3NzOi8vc3VzLnNoaG5vd2lzbm90dGhldGkubWUIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAlTZWFsY3JhZnQIAAJpcAAkd3NzOi8vc2VhbGNyYWZ0LmRkbnMubmV0OjQ0Mi9zZXJ2ZXJzCAALaGlkZUFkZHJlc3MABHRydWUACAAEbmFtZQAJTWVzc0NyYWZ0CAACaXAAFXdzczovL21lc3MuZXUub3JnL3MxLwgAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUAAkIyCAACaXAAFHdzczovL21jLmIyc2VydmVyLnRrCAALaGlkZUFkZHJlc3MABHRydWUACAAEbmFtZQANRXBpYyBTdXJ2aXZhbAgAAmlwACZ3c3M6Ly9wbGF5LnRoZWVwaWNnYW1lci5yZXBsLmNvL3NlcnZlcggAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUAC0RlbHV4ZUNyYWZ0CAACaXAAJXdzczovL3BsYXkuZGVsdXhlY3JhZnQucmVwbC5jby9zZXJ2ZXIIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAZJTUMuUkUIAAJpcAAcd3NzOi8vcGxheS5pbWMucmU6NDQxL3NlcnZlcggAC2hpZGVBZGRyZXNzAAR0cnVlAAgABG5hbWUAD1RyaWRlbnQgTmV0d29yawgAAmlwABt3c3M6Ly9uZXR3b3JrLnJlbWF0cml4LnRlY2gIAAtoaWRlQWRkcmVzcwAEdHJ1ZQAIAARuYW1lAAdVc0NyYWZ0CAACaXAAIHdzczovL2VhZ2xlci5za2VsaXRpbi54eXovc2VydmVyCAALaGlkZUFkZHJlc3MABHRydWUACgAIbWFpbk1lbnUJAAhzcGxhc2hlcwgAAAAOAApEYXJ2aWdsZXQhAA5EYXJ2aWdsb3BoaWxlIQALWW91IEVhZ2xlciEAC1llZWVlZWVlZWUhAAtZb3UgWWVlbGVyIQANRUVFRUVFRUVFRUVFIQALWW91IERhcnZpZyEACVlvdSBWaWdnIQAIOj4gRWNobz8ADHw+IENvb2wgZWNobwAOM2toMC5naXRodWIuaW8ADkVDSE8gT04gVE9QISEhAA4za2gwLCBteSBsb3JkIQAQRmlzaCBpbiBhIGJ1Y2tldAAA",
+        ];
+        (function () {
+          var q = window.location.search;
+          if (typeof q === "string" && q.startsWith("?")) {
+            q = new URLSearchParams(q);
+            var s = q.get("server");
+            if (s) window.minecraftOpts.push(s);
+          }
+        })();
+        setTimeout(function () {
+          document.getElementById("available").style.display = "block";
+        }, 5000);
+        window.remAvailable = setTimeout(function () {
+          document.getElementById("available").remove();
+        }, 18000);
+        document.getElementById("available_hide").addEventListener("click", function () {
+          clearTimeout(window.remAvailable);
+          document.getElementById("available").remove();
+        });
+        main();
+      });
+    </script>
+  </head>
+  <body style="margin: 0px; width: 100vw; height: 100vh;" id="game_frame">
+    <div id="available" style="display: none;">
+      <p id="available_hide">&nbsp;X&nbsp;</p>
+      <p style="margin: 0px;">
+        You are playing Eaglercraft on 3kh0.github.io, credit to LAX1DUDE for making this!
+      </p>
+    </div>
+  </body>
+</html>

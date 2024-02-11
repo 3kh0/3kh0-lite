@@ -1,0 +1,174 @@
+
+Boo.png
+size: 697,697
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Boo/body
+  rotate: true
+  xy: 481, 43
+  size: 132, 110
+  orig: 197, 381
+  offset: 33, 29
+  index: -1
+Boo/eyes_01
+  rotate: true
+  xy: 584, 207
+  size: 107, 52
+  orig: 197, 381
+  offset: 46, 86
+  index: -1
+Boo/eyes_02
+  rotate: true
+  xy: 640, 4
+  size: 103, 44
+  orig: 197, 381
+  offset: 47, 94
+  index: -1
+Boo/eyes_03
+  rotate: true
+  xy: 593, 100
+  size: 105, 45
+  orig: 197, 381
+  offset: 46, 93
+  index: -1
+Boo/eyes_04
+  rotate: true
+  xy: 640, 109
+  size: 105, 46
+  orig: 197, 381
+  offset: 46, 92
+  index: -1
+Boo/eyes_05
+  rotate: true
+  xy: 638, 216
+  size: 107, 52
+  orig: 197, 381
+  offset: 46, 86
+  index: -1
+Boo/l_hand
+  rotate: true
+  xy: 663, 454
+  size: 40, 32
+  orig: 197, 381
+  offset: 114, 46
+  index: -1
+Boo/l_pupil
+  rotate: false
+  xy: 197, 175
+  size: 11, 12
+  orig: 197, 381
+  offset: 82, 100
+  index: -1
+Boo/mouth
+  rotate: true
+  xy: 593, 325
+  size: 115, 98
+  orig: 197, 381
+  offset: 42, 48
+  index: -1
+Boo/r_hand
+  rotate: false
+  xy: 593, 65
+  size: 40, 33
+  orig: 197, 381
+  offset: 40, 47
+  index: -1
+Boo/r_pupil
+  rotate: true
+  xy: 2, 2
+  size: 10, 12
+  orig: 197, 381
+  offset: 108, 100
+  index: -1
+Boo/top
+  rotate: false
+  xy: 630, 451
+  size: 31, 43
+  orig: 197, 381
+  offset: 82, 123
+  index: -1
+Poof/poof_01
+  rotate: true
+  xy: 355, 27
+  size: 141, 124
+  orig: 246, 257
+  offset: 53, 56
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 450, 316
+  size: 141, 124
+  orig: 246, 257
+  offset: 53, 56
+  index: -1
+Poof/poof_03
+  rotate: false
+  xy: 442, 177
+  size: 140, 137
+  orig: 246, 257
+  offset: 54, 62
+  index: -1
+Poof/poof_04
+  rotate: true
+  xy: 197, 13
+  size: 155, 156
+  orig: 246, 257
+  offset: 49, 50
+  index: -1
+Poof/poof_05
+  rotate: true
+  xy: 2, 14
+  size: 173, 193
+  orig: 246, 257
+  offset: 33, 35
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 474, 496
+  size: 200, 199
+  orig: 246, 257
+  offset: 23, 22
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 250, 472
+  size: 222, 223
+  orig: 246, 257
+  offset: 12, 13
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 189
+  size: 238, 247
+  orig: 246, 257
+  offset: 4, 5
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 438
+  size: 246, 257
+  orig: 246, 257
+  offset: 0, 0
+  index: -1
+cage
+  rotate: true
+  xy: 250, 321
+  size: 149, 198
+  orig: 197, 381
+  offset: 24, 20
+  index: -1
+cage_back
+  rotate: true
+  xy: 242, 170
+  size: 149, 198
+  orig: 197, 381
+  offset: 24, 20
+  index: -1
+shadow
+  rotate: false
+  xy: 474, 442
+  size: 154, 52
+  orig: 197, 381
+  offset: 22, 6
+  index: -1

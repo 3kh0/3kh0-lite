@@ -1,0 +1,160 @@
+
+Ghost.png
+size: 332,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ghost/eyes_02
+  rotate: false
+  xy: 73, 10
+  size: 32, 13
+  orig: 99, 190
+  offset: 32, 48
+  index: -1
+Ghost/eyes_03
+  rotate: true
+  xy: 108, 39
+  size: 33, 13
+  orig: 99, 190
+  offset: 32, 48
+  index: -1
+Ghost/eyes_04
+  rotate: false
+  xy: 73, 25
+  size: 33, 13
+  orig: 99, 190
+  offset: 32, 48
+  index: -1
+Ghost/eyes_05
+  rotate: false
+  xy: 73, 57
+  size: 33, 15
+  orig: 99, 190
+  offset: 32, 46
+  index: -1
+Ghost/eyes_06
+  rotate: false
+  xy: 73, 40
+  size: 33, 15
+  orig: 99, 190
+  offset: 32, 46
+  index: -1
+Ghost/head
+  rotate: true
+  xy: 240, 167
+  size: 64, 77
+  orig: 99, 190
+  offset: 16, 11
+  index: -1
+Ghost/l_hand
+  rotate: false
+  xy: 305, 148
+  size: 16, 17
+  orig: 99, 190
+  offset: 27, 27
+  index: -1
+Ghost/l_pupil
+  rotate: false
+  xy: 230, 201
+  size: 8, 15
+  orig: 99, 190
+  offset: 32, 46
+  index: -1
+Ghost/mouth_01
+  rotate: false
+  xy: 73, 3
+  size: 7, 5
+  orig: 99, 190
+  offset: 45, 43
+  index: -1
+Ghost/mouth_02
+  rotate: false
+  xy: 108, 28
+  size: 7, 9
+  orig: 99, 190
+  offset: 45, 39
+  index: -1
+Ghost/platform
+  rotate: true
+  xy: 204, 36
+  size: 78, 26
+  orig: 99, 190
+  offset: 11, 3
+  index: -1
+Ghost/r_hand
+  rotate: false
+  xy: 305, 129
+  size: 16, 17
+  orig: 99, 190
+  offset: 53, 27
+  index: -1
+Ghost/r_pupil
+  rotate: false
+  xy: 305, 112
+  size: 9, 15
+  orig: 99, 190
+  offset: 56, 46
+  index: -1
+Poof/poof_01
+  rotate: false
+  xy: 232, 102
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 232, 37
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_03
+  rotate: true
+  xy: 2, 2
+  size: 70, 69
+  orig: 123, 129
+  offset: 27, 31
+  index: -1
+Poof/poof_04
+  rotate: true
+  xy: 123, 36
+  size: 78, 79
+  orig: 123, 129
+  offset: 24, 25
+  index: -1
+Poof/poof_05
+  rotate: false
+  xy: 240, 233
+  size: 87, 97
+  orig: 123, 129
+  offset: 16, 18
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 127, 116
+  size: 101, 100
+  orig: 123, 129
+  offset: 11, 11
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 127, 218
+  size: 111, 112
+  orig: 123, 129
+  offset: 6, 7
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 74
+  size: 119, 125
+  orig: 123, 129
+  offset: 2, 2
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 201
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1

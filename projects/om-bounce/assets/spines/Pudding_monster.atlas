@@ -1,0 +1,146 @@
+
+Pudding_monster.png
+size: 356,356
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Poof/poof_01
+  rotate: true
+  xy: 123, 98
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_02
+  rotate: true
+  xy: 188, 98
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_03
+  rotate: false
+  xy: 214, 171
+  size: 70, 69
+  orig: 123, 129
+  offset: 27, 31
+  index: -1
+Poof/poof_04
+  rotate: false
+  xy: 253, 90
+  size: 78, 79
+  orig: 123, 129
+  offset: 24, 25
+  index: -1
+Poof/poof_05
+  rotate: true
+  xy: 2, 9
+  size: 87, 97
+  orig: 123, 129
+  offset: 16, 18
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 240, 254
+  size: 101, 100
+  orig: 123, 129
+  offset: 11, 11
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 127, 242
+  size: 111, 112
+  orig: 123, 129
+  offset: 6, 7
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 98
+  size: 119, 125
+  orig: 123, 129
+  offset: 2, 2
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 225
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1
+Pudding_monster/body
+  rotate: true
+  xy: 101, 11
+  size: 85, 69
+  orig: 99, 190
+  offset: 8, 8
+  index: -1
+Pudding_monster/body_02
+  rotate: false
+  xy: 127, 171
+  size: 85, 69
+  orig: 99, 190
+  offset: 8, 8
+  index: -1
+Pudding_monster/body_03
+  rotate: true
+  xy: 172, 11
+  size: 85, 69
+  orig: 99, 190
+  offset: 8, 8
+  index: -1
+Pudding_monster/hair
+  rotate: true
+  xy: 286, 172
+  size: 80, 46
+  orig: 99, 190
+  offset: 10, 34
+  index: -1
+Pudding_monster/hat
+  rotate: true
+  xy: 334, 165
+  size: 29, 20
+  orig: 99, 190
+  offset: 59, 69
+  index: -1
+Pudding_monster/mouth_01
+  rotate: true
+  xy: 334, 196
+  size: 56, 17
+  orig: 99, 190
+  offset: 22, 27
+  index: -1
+Pudding_monster/mouth_02
+  rotate: true
+  xy: 321, 6
+  size: 54, 19
+  orig: 99, 190
+  offset: 22, 24
+  index: -1
+Pudding_monster/mouth_03
+  rotate: true
+  xy: 299, 6
+  size: 54, 20
+  orig: 99, 190
+  offset: 22, 23
+  index: -1
+Pudding_monster/mouth_04
+  rotate: false
+  xy: 243, 7
+  size: 54, 25
+  orig: 99, 190
+  offset: 22, 18
+  index: -1
+Pudding_monster/mouth_05
+  rotate: false
+  xy: 243, 34
+  size: 54, 26
+  orig: 99, 190
+  offset: 22, 17
+  index: -1
+Pudding_monster/platform
+  rotate: false
+  xy: 243, 62
+  size: 78, 26
+  orig: 99, 190
+  offset: 11, 3
+  index: -1

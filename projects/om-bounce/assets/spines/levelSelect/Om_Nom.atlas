@@ -1,0 +1,104 @@
+
+Om_Nom.png
+size: 358,358
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Om_Nom/body
+  rotate: false
+  xy: 2, 199
+  size: 173, 157
+  orig: 173, 157
+  offset: 0, 0
+  index: -1
+Om_Nom/eyes_01
+  rotate: true
+  xy: 2, 63
+  size: 134, 84
+  orig: 134, 84
+  offset: 0, 0
+  index: -1
+Om_Nom/eyes_02
+  rotate: true
+  xy: 290, 229
+  size: 127, 32
+  orig: 134, 84
+  offset: 3, 52
+  index: -1
+Om_Nom/eyes_03
+  rotate: false
+  xy: 2, 2
+  size: 134, 59
+  orig: 134, 84
+  offset: 0, 25
+  index: -1
+Om_Nom/eyes_04
+  rotate: true
+  xy: 174, 61
+  size: 134, 75
+  orig: 134, 84
+  offset: 0, 9
+  index: -1
+Om_Nom/eyes_05
+  rotate: true
+  xy: 88, 63
+  size: 134, 84
+  orig: 134, 84
+  offset: 0, 0
+  index: -1
+Om_Nom/l_hand
+  rotate: true
+  xy: 251, 27
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+Om_Nom/l_leg
+  rotate: true
+  xy: 251, 27
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+Om_Nom/mouth_01
+  rotate: true
+  xy: 177, 197
+  size: 159, 111
+  orig: 160, 111
+  offset: 0, 0
+  index: -1
+Om_Nom/mouth_02
+  rotate: true
+  xy: 251, 70
+  size: 125, 95
+  orig: 125, 95
+  offset: 0, 0
+  index: -1
+Om_Nom/pupil
+  rotate: false
+  xy: 138, 43
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+Om_Nom/r_hand
+  rotate: false
+  xy: 306, 15
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+Om_Nom/r_leg
+  rotate: false
+  xy: 306, 15
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+Om_Nom/top
+  rotate: true
+  xy: 153, 23
+  size: 36, 55
+  orig: 36, 55
+  offset: 0, 0
+  index: -1

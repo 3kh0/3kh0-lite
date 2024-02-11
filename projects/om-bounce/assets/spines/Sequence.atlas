@@ -1,0 +1,188 @@
+
+Sequence.png
+size: 469,469
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Player/Intro/pose_01
+  rotate: false
+  xy: 2, 387
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Intro/pose_02
+  rotate: false
+  xy: 2, 138
+  size: 88, 83
+  orig: 120, 120
+  offset: 16, 19
+  index: -1
+Player/Intro/pose_03
+  rotate: true
+  xy: 184, 45
+  size: 88, 96
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Intro/pose_04
+  rotate: true
+  xy: 282, 45
+  size: 88, 95
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_04
+  rotate: true
+  xy: 282, 45
+  size: 88, 95
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Intro/pose_05
+  rotate: true
+  xy: 92, 47
+  size: 88, 90
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_05
+  rotate: true
+  xy: 92, 47
+  size: 88, 90
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_01
+  rotate: false
+  xy: 182, 387
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_02
+  rotate: false
+  xy: 300, 220
+  size: 88, 82
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_03
+  rotate: false
+  xy: 379, 37
+  size: 88, 96
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_06
+  rotate: false
+  xy: 92, 138
+  size: 88, 83
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_07
+  rotate: false
+  xy: 272, 387
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_08
+  rotate: false
+  xy: 362, 387
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_09
+  rotate: false
+  xy: 2, 305
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_10
+  rotate: false
+  xy: 377, 304
+  size: 88, 81
+  orig: 120, 120
+  offset: 16, 19
+  index: -1
+Player/Loop/pose_11
+  rotate: false
+  xy: 210, 222
+  size: 88, 81
+  orig: 120, 120
+  offset: 16, 19
+  index: -1
+Player/Loop/pose_12
+  rotate: false
+  xy: 182, 137
+  size: 88, 83
+  orig: 120, 120
+  offset: 16, 17
+  index: -1
+Player/Loop/pose_13
+  rotate: false
+  xy: 272, 135
+  size: 88, 83
+  orig: 120, 120
+  offset: 16, 17
+  index: -1
+Player/Loop/pose_14
+  rotate: false
+  xy: 92, 305
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_15
+  rotate: false
+  xy: 182, 305
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Loop/pose_16
+  rotate: false
+  xy: 92, 387
+  size: 88, 80
+  orig: 120, 120
+  offset: 16, 20
+  index: -1
+Player/Outro/pose_12
+  rotate: false
+  xy: 362, 135
+  size: 88, 83
+  orig: 120, 120
+  offset: 16, 17
+  index: -1
+Player/Outro/pose_13
+  rotate: false
+  xy: 2, 53
+  size: 88, 83
+  orig: 120, 120
+  offset: 16, 17
+  index: -1
+Player/Outro/pose_14
+  rotate: false
+  xy: 2, 223
+  size: 99, 80
+  orig: 120, 120
+  offset: 10, 20
+  index: -1
+Player/Outro/pose_15
+  rotate: false
+  xy: 103, 223
+  size: 105, 80
+  orig: 120, 120
+  offset: 7, 20
+  index: -1
+Player/Outro/pose_16
+  rotate: false
+  xy: 272, 305
+  size: 103, 80
+  orig: 120, 120
+  offset: 9, 20
+  index: -1

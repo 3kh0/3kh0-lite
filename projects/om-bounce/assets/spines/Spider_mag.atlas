@@ -1,0 +1,202 @@
+
+Spider_mag.png
+size: 364,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Poof/poof_01
+  rotate: true
+  xy: 195, 111
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 240, 200
+  size: 71, 63
+  orig: 123, 129
+  offset: 26, 28
+  index: -1
+Poof/poof_03
+  rotate: false
+  xy: 123, 113
+  size: 70, 69
+  orig: 123, 129
+  offset: 27, 31
+  index: -1
+Poof/poof_04
+  rotate: false
+  xy: 184, 30
+  size: 78, 79
+  orig: 123, 129
+  offset: 24, 25
+  index: -1
+Poof/poof_05
+  rotate: false
+  xy: 240, 265
+  size: 87, 97
+  orig: 123, 129
+  offset: 16, 18
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 2, 4
+  size: 101, 100
+  orig: 123, 129
+  offset: 11, 11
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 127, 250
+  size: 111, 112
+  orig: 123, 129
+  offset: 6, 7
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 106
+  size: 119, 125
+  orig: 123, 129
+  offset: 2, 2
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 233
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1
+Spider_mag/eyes_01
+  rotate: true
+  xy: 334, 225
+  size: 57, 28
+  orig: 99, 190
+  offset: 21, 33
+  index: -1
+Spider_mag/eyes_02
+  rotate: true
+  xy: 313, 204
+  size: 59, 19
+  orig: 99, 190
+  offset: 20, 44
+  index: -1
+Spider_mag/eyes_03
+  rotate: false
+  xy: 184, 7
+  size: 59, 21
+  orig: 99, 190
+  offset: 20, 42
+  index: -1
+Spider_mag/eyes_04
+  rotate: true
+  xy: 297, 66
+  size: 59, 27
+  orig: 99, 190
+  offset: 20, 36
+  index: -1
+Spider_mag/eyes_05
+  rotate: true
+  xy: 264, 66
+  size: 59, 31
+  orig: 99, 190
+  offset: 20, 32
+  index: -1
+Spider_mag/eyes_06
+  rotate: false
+  xy: 264, 45
+  size: 59, 19
+  orig: 99, 190
+  offset: 20, 44
+  index: -1
+Spider_mag/hat_01
+  rotate: true
+  xy: 105, 7
+  size: 97, 77
+  orig: 99, 190
+  offset: 1, 38
+  index: -1
+Spider_mag/hat_02
+  rotate: true
+  xy: 127, 184
+  size: 64, 96
+  orig: 99, 190
+  offset: 17, 85
+  index: -1
+Spider_mag/head
+  rotate: true
+  xy: 260, 127
+  size: 71, 47
+  orig: 99, 190
+  offset: 14, 11
+  index: -1
+Spider_mag/l_pupil
+  rotate: false
+  xy: 225, 198
+  size: 9, 10
+  orig: 99, 190
+  offset: 35, 43
+  index: -1
+Spider_mag/mouth_01
+  rotate: true
+  xy: 330, 164
+  size: 38, 8
+  orig: 99, 190
+  offset: 30, 26
+  index: -1
+Spider_mag/mouth_02
+  rotate: false
+  xy: 245, 19
+  size: 38, 8
+  orig: 99, 190
+  offset: 30, 27
+  index: -1
+Spider_mag/mouth_03
+  rotate: false
+  xy: 264, 29
+  size: 38, 14
+  orig: 99, 190
+  offset: 30, 21
+  index: -1
+Spider_mag/mouth_04
+  rotate: true
+  xy: 225, 210
+  size: 38, 12
+  orig: 99, 190
+  offset: 30, 23
+  index: -1
+Spider_mag/mouth_05
+  rotate: true
+  xy: 318, 164
+  size: 38, 10
+  orig: 99, 190
+  offset: 30, 25
+  index: -1
+Spider_mag/mouth_06
+  rotate: false
+  xy: 245, 9
+  size: 38, 8
+  orig: 99, 190
+  offset: 30, 27
+  index: -1
+Spider_mag/mouth_07
+  rotate: true
+  xy: 309, 159
+  size: 39, 7
+  orig: 95, 204
+  offset: 28, 29
+  index: -1
+Spider_mag/platform
+  rotate: true
+  xy: 329, 284
+  size: 78, 26
+  orig: 99, 190
+  offset: 11, 3
+  index: -1
+Spider_mag/r_pupil
+  rotate: false
+  xy: 304, 32
+  size: 10, 11
+  orig: 99, 190
+  offset: 53, 44
+  index: -1

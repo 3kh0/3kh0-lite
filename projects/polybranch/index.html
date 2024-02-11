@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>PolyBranch | 3kh0</title>
+        <meta
+            name="description"
+            content="PolyBranch is a minimalist 3D game. Avoid the branches protruding from the walls as you fly through the tunnel. Dodging branches may seem easy at first, but how long can you hold up as you approach terminal velocity? Dive in, stay focused, and enjoy the ride!"
+        />
+        <meta property="og:title" content="PolyBranch" />
+        <meta
+            property="og:description"
+            content="PolyBranch is a minimalist 3D game. Avoid the branches protruding from the walls as you fly through the tunnel. Dodging branches may seem easy at first, but how long can you hold up as you approach terminal velocity? Dive in, stay focused, and enjoy the ride!"
+        />
+        <meta property="og:type" content="game" />
+        <meta content="Polybranch" property="og:title" />
+        <meta content="Site Description" property="og:description" />
+        <meta content="#00FF00" data-react-helmet="true" name="theme-color" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQAAVzABAEAjBQAaDwYAWjUGAGE6CQBrQQ0ATS8PAFhAJwBUQC8AbFI6AHVXPACBZk4A4NrWAPb++++++++++++++++++19QAAAAAAAMmZmZmZmgAJIwAAAAAAcMIjPjA+PjAKpxIuMDMzMAm0Ii4zMzMACaIiLt3dMAAJtyIuIzPQAAm0Un5yM+IzKLRkfncy4iIotRF+dyLkIiq0QX53F+EiGrQUTkd34iIatEVu7u5iIVrBVVRBRFRVbAtGZGZla2uwAMu7u7u8vADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAADAAwAA"
+        />
+        <meta name="Generator" content="Processing" />
+        <!-- - - - - - - - - - - - - - - - - - - - - 
+		+
+		+    Wondering how this works? 
+		+
+		+    Go to: http://processing.org/
+		+    and: http://processingjs.org/
+		+
+		+ - - - - - - - - - - - - - - - - - - - - -->
+        <style type="text/css"></style>
+        <!--[if lt IE 9]>
+            <script type="text/javascript">
+                alert("Your browser does not support the canvas tag.");
+            </script>
+        <![endif]-->
+        <script src="js/libs/processing-1.4.1.min.js" type="text/javascript"></script>
+        <script src="js/libs/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <link href="http://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+            var bound = false;
+            var pjs;
+
+            function bindJavascript() {
+                pjs = Processing.getInstanceById("polybranch");
+                if (pjs != null) {
+                    pjs.bindJavascript(this);
+                    bound = true;
+                }
+                if (!bound) setTimeout(bindJavascript, 250);
+            }
+
+            bindJavascript();
+        </script>
+        <script src="js/script.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            // convenience function to get the id attribute of generated sketch html element
+            function getProcessingSketchId() {
+                return "polybranch";
+            }
+        </script>
+    </head>
+    <body onload="check();">
+        <div id="content">
+            <div id="game-wrapper">
+                <canvas id="polybranch" data-processing-sources="polybranch.pjs" width="800" height="800">
+                    <p>Your browser does not support the canvas tag.</p>
+                    <!-- Note: you can put any alternative content here. -->
+                </canvas>
+                <div class="overlay" id="main-menu">
+                    <div class="content">
+                        <h1>PolyBranch</h1>
+                        <a class="button" id="start">START</a>
+                    </div>
+                </div>
+                <div id="hud">
+                    <h1 id="score">0</h1>
+                    <h1 id="level">L<span>1</span></h1>
+                </div>
+                <img id="arrowkeys" src="Arrow_keys.png" />
+                <div class="overlay" id="flash"></div>
+                <div class="overlay" id="gameover-menu">
+                    <div class="content">
+                        <h1 id="score"></h1>
+                        <h2 id="highscore"></h2>
+                        <h2 id="nextlevel">NEXT LEVEL AT <span></span> !</h2>
+                        <a class="button" id="retry">TRY AGAIN!</a>
+                    </div>
+                </div>
+                <div class="overlay" id="loading">
+                    <h2>Loading... Please wait :)</h2>
+                </div>
+                <noscript>
+                    <p>JavaScript is required to view the contents of this page.</p>
+                </noscript>
+            </div>
+            <div id="page">
+                <h1>PolyBranch</h1>
+                <p>This game is written using a combination of <a target="_blank" href="http://processingjs.org/">Processing.js</a> and <a target="_blank" href="http://jquery.com/">jQuery</a>.</p>
+            </div>
+        </div>
+        <script type="application/javascript" src="/js/main.js"></script>
+    </body>
+</html>

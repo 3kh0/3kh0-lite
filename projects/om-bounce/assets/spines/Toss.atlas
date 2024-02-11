@@ -1,0 +1,174 @@
+
+Toss.png
+size: 711,711
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Poof/poof_01
+  rotate: false
+  xy: 242, 209
+  size: 141, 124
+  orig: 246, 257
+  offset: 53, 56
+  index: -1
+Poof/poof_02
+  rotate: false
+  xy: 385, 209
+  size: 141, 124
+  orig: 246, 257
+  offset: 53, 56
+  index: -1
+Poof/poof_03
+  rotate: false
+  xy: 474, 377
+  size: 140, 137
+  orig: 246, 257
+  offset: 54, 62
+  index: -1
+Poof/poof_04
+  rotate: false
+  xy: 355, 51
+  size: 155, 156
+  orig: 246, 257
+  offset: 49, 50
+  index: -1
+Poof/poof_05
+  rotate: false
+  xy: 474, 516
+  size: 173, 193
+  orig: 246, 257
+  offset: 33, 35
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 2, 2
+  size: 200, 199
+  orig: 246, 257
+  offset: 23, 22
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 250, 486
+  size: 222, 223
+  orig: 246, 257
+  offset: 12, 13
+  index: -1
+Poof/poof_08
+  rotate: false
+  xy: 2, 203
+  size: 238, 247
+  orig: 246, 257
+  offset: 4, 5
+  index: -1
+Poof/poof_09
+  rotate: false
+  xy: 2, 452
+  size: 246, 257
+  orig: 246, 257
+  offset: 0, 0
+  index: -1
+Toss/body
+  rotate: true
+  xy: 528, 237
+  size: 138, 117
+  orig: 197, 381
+  offset: 31, 25
+  index: -1
+Toss/eyes_01
+  rotate: true
+  xy: 616, 380
+  size: 134, 51
+  orig: 197, 381
+  offset: 31, 72
+  index: -1
+Toss/eyes_02
+  rotate: true
+  xy: 450, 351
+  size: 133, 21
+  orig: 197, 381
+  offset: 32, 102
+  index: -1
+Toss/eyes_03
+  rotate: true
+  xy: 647, 244
+  size: 134, 28
+  orig: 197, 381
+  offset: 31, 95
+  index: -1
+Toss/eyes_04
+  rotate: false
+  xy: 355, 4
+  size: 134, 45
+  orig: 197, 381
+  offset: 31, 78
+  index: -1
+Toss/eyes_05
+  rotate: true
+  xy: 512, 73
+  size: 134, 51
+  orig: 197, 381
+  offset: 31, 72
+  index: -1
+Toss/l_hand
+  rotate: true
+  xy: 473, 335
+  size: 40, 34
+  orig: 197, 381
+  offset: 114, 45
+  index: -1
+Toss/l_pupil
+  rotate: false
+  xy: 491, 36
+  size: 11, 13
+  orig: 197, 381
+  offset: 63, 91
+  index: -1
+Toss/mouth
+  rotate: false
+  xy: 565, 58
+  size: 90, 61
+  orig: 197, 381
+  offset: 53, 60
+  index: -1
+Toss/r_hand
+  rotate: false
+  xy: 649, 520
+  size: 41, 33
+  orig: 197, 381
+  offset: 40, 47
+  index: -1
+Toss/r_pupil
+  rotate: false
+  xy: 528, 222
+  size: 11, 13
+  orig: 197, 381
+  offset: 122, 91
+  index: -1
+Toss/top
+  rotate: true
+  xy: 565, 121
+  size: 114, 70
+  orig: 197, 381
+  offset: 42, 109
+  index: -1
+cage
+  rotate: false
+  xy: 204, 3
+  size: 149, 198
+  orig: 197, 381
+  offset: 24, 20
+  index: -1
+cage_back
+  rotate: true
+  xy: 250, 335
+  size: 149, 198
+  orig: 197, 381
+  offset: 24, 20
+  index: -1
+shadow
+  rotate: true
+  xy: 649, 555
+  size: 154, 52
+  orig: 197, 381
+  offset: 22, 6
+  index: -1

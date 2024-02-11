@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html manifest="offline.appcache">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Big Tower Tiny Square | 3kh0</title>
+    <link rel="manifest" href="appmanifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" sizes="256x256" href="icon-256.png" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" sizes="256x256" href="icon-256.png" />
+    <link rel="icon" sizes="256x256" href="icon-256.png" />
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      html,body {
+        background: #000;
+        color: #fff;
+        overflow: hidden;
+        touch-action: none;
+        -ms-touch-action: none;
+      }
+      canvas {
+        touch-action-delay: none;
+        touch-action: none;
+        -ms-touch-action: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="c2canvasdiv">
+      <canvas id="c2canvas" width="1920" height="1080">
+        <h1>
+          Your browser does not support HTML5.
+        </h1>
+      </canvas>
+    </div>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="c2runtime.js"></script>
+    <script>
+      jQuery(document).ready(function () {
+        cr_createRuntime("c2canvas");
+      });
+      function onVisibilityChanged() {
+        if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden) cr_setSuspended(true);
+        else cr_setSuspended(false);
+      }
+      document.addEventListener("visibilitychange", onVisibilityChanged, false);
+      document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
+      document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
+      document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+
+      function OnRegisterSWError(e) {
+        console.warn("Failed to register service worker: ", e);
+      }
+      window.C2_RegisterSW = function C2_RegisterSW() {
+        if (!navigator.serviceWorker) return;
+        try {
+          navigator.serviceWorker
+            .register("sw.js", { scope: "./" })
+            .then(function (reg) {
+              console.log("Registered service worker on " + reg.scope);
+            })
+            .catch(OnRegisterSWError);
+        } catch (e) {
+          OnRegisterSWError(e);
+        }
+      };
+    </script>
+    <script type="application/javascript" src="/js/main.js"></script>
+  </body>
+</html>

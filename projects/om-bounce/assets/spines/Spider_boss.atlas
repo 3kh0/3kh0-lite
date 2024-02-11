@@ -1,0 +1,195 @@
+
+Spider_boss.png
+size: 678,678
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grunt_spider/eyes_01
+  rotate: false
+  xy: 206, 173
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/eyes_02
+  rotate: false
+  xy: 206, 76
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/eyes_03
+  rotate: true
+  xy: 540, 87
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/eyes_04
+  rotate: true
+  xy: 266, 15
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/eyes_05
+  rotate: true
+  xy: 363, 15
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/eyes_06
+  rotate: false
+  xy: 614, 581
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/head
+  rotate: false
+  xy: 614, 484
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/l_pupil
+  rotate: false
+  xy: 614, 387
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Grunt_spider/r_pupil
+  rotate: false
+  xy: 614, 290
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+Poof/poof_01
+  rotate: true
+  xy: 2, 2
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_02
+  rotate: true
+  xy: 68, 2
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_03
+  rotate: true
+  xy: 134, 2
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_04
+  rotate: true
+  xy: 200, 2
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_05
+  rotate: false
+  xy: 540, 204
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_06
+  rotate: false
+  xy: 540, 138
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_07
+  rotate: false
+  xy: 604, 204
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_08
+  rotate: true
+  xy: 604, 140
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Poof/poof_09
+  rotate: true
+  xy: 540, 23
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+Spider_boss/eyes_01
+  rotate: false
+  xy: 2, 474
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1
+Spider_boss/eyes_02
+  rotate: false
+  xy: 2, 270
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1
+Spider_boss/eyes_03
+  rotate: false
+  xy: 2, 66
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1
+Spider_boss/eyes_04
+  rotate: false
+  xy: 206, 474
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1
+Spider_boss/eyes_05
+  rotate: false
+  xy: 206, 270
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1
+Spider_boss/eyes_06
+  rotate: false
+  xy: 266, 66
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1
+Spider_boss/l_pupil
+  rotate: false
+  xy: 410, 474
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1
+Spider_boss/platform
+  rotate: true
+  xy: 470, 66
+  size: 202, 68
+  orig: 202, 68
+  offset: 0, 0
+  index: -1
+Spider_boss/r_pupil
+  rotate: false
+  xy: 410, 270
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1

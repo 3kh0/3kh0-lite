@@ -1,0 +1,26 @@
+# Some random stuffs
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+*.sai
+plans.txt
+animalspecies.txt
+bustedsave.txt
+less/compilestyles.bat
+less/standalone/
+*.tmp
+mongoose-free-5.5.exe
