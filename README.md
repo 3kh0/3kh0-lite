@@ -10,7 +10,8 @@ Welcome to 3kh0 lite, a lightweight, fast, and clean game site.
 - No ads
 - No bloat
 - Obama approves 👍
-
+- Actually works
+  
 ## Get your own copy
 
 This is site is supposed to be simple yet extendable. You can edit this to your hearts content, but I respectfully ask that you credit me in some way.
@@ -24,4 +25,4 @@ This is site is supposed to be simple yet extendable. You can edit this to your 
 
 ## To-Do
 - Make it easier to add games
-- Make a better README.md
+- Make a better README.md (lol)
