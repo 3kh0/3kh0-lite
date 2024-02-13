@@ -25,3 +25,5 @@ This is site is supposed to be simple yet extendable. You can edit this to your 
 ## To-Do
 - Make it easier to add games
 - Make a better README.md
+
+*silvereen was here*
