@@ -1,0 +1,28 @@
+<html>
+  <head>
+<script src="../skidstopper.js"></script>
+
+    <script src="/js/all.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>This Is The Only Level</title>
+    <style>html{background-color:#000;}</style>
+  </head>
+  <body>
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("ruffle");
+        player.id = "player";
+        player.style.width = "100%";
+        player.style.height = "100%";
+        container.appendChild(player);
+        player.load("level2.swf");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Bronze Age</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+	  var gameInstance = unityInstance;
+    </script>
+          <style type="text/css">
+            .no-select {
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+            }
+          </style>
+        
+          <script type="text/javascript">
+            setTimeout(function(){
+              if(document.getElementsByTagName("canvas").length) {
+                document.getElementsByTagName("body")[0].classList.add("no-select")
+              }
+            }, 2000);
+          </script>
+        </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 100vw; height: 100vh"></div>
+    </div>
+  </body>
+</html>

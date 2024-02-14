@@ -25,6 +25,16 @@
     "title": "Achievement Unlocked"
   },
   {
+    "link": "projects/achievementunlocked2/index.html",
+    "imgSrc": "projects/achievementunlocked2/splash.jpeg",
+    "title": "Achievement Unlocked 2"
+  },
+  {
+    "link": "projects/achievementunlocked3/index.html",
+    "imgSrc": "projects/achievementunlocked3/splash.webp",
+    "title": "Achievement Unlocked 3"
+  },
+  {
     "link": "projects/adrenalinechallenge/index.html",
     "imgSrc": "projects/adrenalinechallenge/adrenalinechallenge.jpg",
     "title": "Adrenaline Challenge"
@@ -198,6 +208,11 @@
     "link": "projects/DogeMiner/index.html",
     "imgSrc": "projects/DogeMiner/img/dogeminer_300x300.png",
     "title": "Doge Miner"
+  },
+  {
+    "link": "projects/dogfight2/index.html",
+    "imgSrc": "projects/dogfight2/hqdefault.jpg",
+    "title": "Dogfight 2"
   },
   {
     "link": "projects/doodle-jump/index.html",
@@ -500,6 +515,11 @@
     "title": "Precision Client (Eaglercraft)"
   },
   {
+    "link": "projects/bronze/index.html",
+    "imgSrc": "projects/bronze/img.png",
+    "title": "Pre-Civilization Bronze Age"
+  },
+  {
     "link": "projects/push-the-square/index.html",
     "imgSrc": "projects/push-the-square/img/splash.png",
     "title": "Push The Square"
@@ -653,6 +673,11 @@
     "link": "projects/thisistheonlylevel/index.html",
     "imgSrc": "projects/thisistheonlylevel/thisistheonlylevel.png",
     "title": "This Is The Only Level"
+  },
+  {
+    "link": "projects/thisistheonlylevel2/index.html",
+    "imgSrc": "projects/thisistheonlylevel2/splash.png",
+    "title": "This Is The Only Level 2"
   },
   {
     "link": "projects/tosstheturtle/index.html",
