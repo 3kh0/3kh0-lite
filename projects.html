@@ -131,16 +131,16 @@
             container.appendChild(game);
           });
         }
-        const backToTopButton = document.getElementById('back-to-top');
+        const backToTop = document.getElementById('back-to-top');
         window.onscroll = function () {
           if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            backToTopButton.style.display = "block";
+            backToTop.style.display = "block";
           } else {
-          backToTopButton.style.display = "none";
+          backToTop.style.display = "none";
         }
       };
 
-      backToTopButton.onclick = function () {
+      backToTop.onclick = function () {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       };
