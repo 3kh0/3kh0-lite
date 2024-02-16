@@ -723,5 +723,10 @@
     "link": "projects/you-are-bezos/index.html",
     "imgSrc": "projects/you-are-bezos/img/banner.png",
     "title": "You Are Jeff Bezos"
+  },
+    {
+    "link": "projects/example/index.html",
+    "imgSrc": "projects/example/img/example.png",
+    "title": "Example Game (not)"
   }
 ]
