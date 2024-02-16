@@ -79,7 +79,7 @@ function getRandomGreeting() {
     "NUKE INCOMING!",
     "I spent too much time making these",
     "you should totally sponsor if you want to :3",
-
+    "3kh0.dev is my portfolio",
   ];
   var randomIndex = Math.floor(Math.random() * greetings.length);
   return greetings[randomIndex];
