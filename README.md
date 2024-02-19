@@ -1,9 +1,9 @@
 # 3kh0 *lite*
 
-![GitHub repo size](https://img.shields.io/github/repo-size/3kh0/3kh0-lite)
-![GitHub Repo stars](https://img.shields.io/github/stars/3kh0/3kh0-lite)
+![GitHub Repo size](https://img.shields.io/github/repo-size/3kh0/3kh0-lite?style=flat&label=Repo%20size)
+![GitHub Repo stars](https://img.shields.io/github/stars/3kh0/3kh0-lite?style=flat&label=Repo%20stars&color=yellow&link=https%3A%2F%2Fgithub.com%2F3kh0%2F3kh0-lite%2Fstargazers)
 
-Welcome to 3kh0 lite, a lightweight, fast, and clean game site.
+Welcome to 3kh0 lite, a lightweight, fast, clean game site.
 
 ## Features
 - No tracking
@@ -11,16 +11,16 @@ Welcome to 3kh0 lite, a lightweight, fast, and clean game site.
 - No bloat
 - Obama approves 👍
 
-## Get your own copy
+## Get your copy
 
-This is site is supposed to be simple yet extendable. You can edit this to your hearts content, but I respectfully ask that you credit me in some way.
+This site is supposed to be simple yet extendable. You can edit this to your heart's content, but I respectfully ask that you credit me somehow.
 1. Fork this repo (give star pls :D)
 2. Edit the files. (mainly the files in the `config` folder)
 3. Optionally, add more games. ([Get some here](https://gitlab.com/3kh0/3kh0-assets))
-4. Host it on GitHub Pages or your own server.
+4. Host it on your server or any static web host.
 5. Enjoy!
 
-> A known issue is game files, due to some games being massive, it will fail on many services, there is no straight forward fix for this, but you can try to host the files on your own server.
+> A known issue is game files; because some games are massive, they will fail on many services. There is no straightforward fix, but you can try to host the files on your server.
 
 ## To-Do
 - Make it easier to add games
