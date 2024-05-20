@@ -47,7 +47,8 @@
   {
     "link": "projects/basketball-stars/index.html",
     "imgSrc": "projects/basketball-stars/assets/images/basketball-stars.png",
-    "title": "Basketball Stars"
+    "title": "Basketball Stars",
+    "hot": 1
   },
   {
     "link": "projects/battleforgondor/index.html",
@@ -132,7 +133,8 @@
   {
     "link": "projects/cookie-clicker/index.html",
     "imgSrc": "projects/cookie-clicker/cookie1.jpeg",
-    "title": "Cookie Clicker"
+    "title": "Cookie Clicker",
+    "hot": 1
   },
   {
     "link": "projects/craftmine/index.html",
@@ -287,7 +289,8 @@
   {
     "link": "projects/geodash/index.html",
     "imgSrc": "projects/geodash/geoscratchicon.png",
-    "title": "Geometry Dash (Scratch)"
+    "title": "Geometry Dash (Scratch)",
+    "hot": 1
   },
   {
     "link": "projects/getaway-shootout/index.html",
@@ -427,7 +430,8 @@
   {
     "link": "projects/motox3m/index.html",
     "imgSrc": "projects/motox3m/splash.jpg",
-    "title": "MotoX3M"
+    "title": "MotoX3M",
+    "hot": 1
   },
   {
     "link": "projects/motox3m-pool/index.html",
@@ -532,7 +536,8 @@
   {
     "link": "projects/slope/index.html",
     "imgSrc": "projects/slope/slope4.jpeg",
-    "title": "Slope"
+    "title": "Slope",
+    "hot": 1
   },
   {
     "link": "projects/sm64/index.html",
@@ -667,7 +672,8 @@
   {
     "link": "projects/tunnel-rush/index.html",
     "imgSrc": "projects/tunnel-rush/img/tunnel.jpg",
-    "title": "Tunnel Rush"
+    "title": "Tunnel Rush",
+    "hot": 1
   },
   {
     "link": "projects/tv-static/index.html",
@@ -692,7 +698,8 @@
   {
     "link": "projects/vex6/index.html",
     "imgSrc": "projects/vex6/assets/icon.jpeg",
-    "title": "Vex 6"
+    "title": "Vex 6",
+    "hot": 1
   },
   {
     "link": "projects/webretro-local/index.html",
