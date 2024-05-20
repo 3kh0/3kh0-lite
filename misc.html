@@ -10,7 +10,7 @@
       }
     </style>
   </head>
-  <body style="background-color: #121212; color: #ffffff; font-family: 'Roboto', sans-serif; margin: 0; padding: 5%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+  <body style="background-color: #121212; color: #ffffff; font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
     <h2 style="text-align: center; font-size: 2em; margin-bottom: 1em;">Miscellaneous stuff</h2>
     <div style="width: 100%; max-width: 600px; margin-bottom: 2em;">
       <div>
@@ -38,6 +38,16 @@
         <button onclick="changeTabTitle();" style="padding: 10px 20px; border: none; border-radius: 10px; background-color: #b625cc; color: #ffffff;">Set Title</button>
         <button onclick="changeTabIcon();" style="padding: 10px 20px; border: none; border-radius: 10px; background-color: #b625cc; color: #ffffff;">Set Icon</button>
         <button onclick="resetTabSettings();" style="padding: 10px 20px; border: none; border-radius: 10px; background-color: #b625cc; color: #ffffff;">Reset</button>
+      </div>
+    </div>
+    <div style="width: 100%; max-width: 600px; margin-bottom: 2em;">
+      <div>
+        <h1>Ads consent</h1>
+        <div>
+          <p>Sometimes, ads are shown to support the creator, if you would not like to see ads or it slows down your computer too much, you can disable them here.</p>
+          <label for="adConsent">Do not show ads at all:</label>
+          <input type="checkbox" id="adConsent" name="adConsent">
+        </div>
       </div>
     </div>
     <p style="text-align: center; margin-top: 2em;">

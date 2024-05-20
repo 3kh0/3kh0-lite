@@ -6,9 +6,9 @@
 Welcome to 3kh0 lite, a lightweight, fast, clean game site.
 
 ## Features
-- No tracking
-- No ads
-- No bloat
+- Fast
+- Clean
+- Lightweight
 - Obama approves 👍
 
 ## Get your copy
