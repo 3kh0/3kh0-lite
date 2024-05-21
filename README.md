@@ -24,7 +24,7 @@ This site is supposed to be simple yet extendable. You can edit this to your hea
 ## Configuration
 
 All the configuration is done in the `config` folder.
-- `games.json`: It contains the games' names, icons, and link.
+- `games.json`: It contains the games' names, icons, and link, and tags such as hot.
 
 ## To-Do
 - Make it easier to add games
