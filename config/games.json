@@ -12,7 +12,8 @@
   {
     "link": "projects/2048/index.html",
     "imgSrc": "projects/2048/thumb.png",
-    "title": "2048"
+    "title": "2048",
+    "hot": "true"
   },
   {
     "link": "projects/9007199254740992/index.html",
@@ -132,7 +133,8 @@
   {
     "link": "projects/cookie-clicker/index.html",
     "imgSrc": "projects/cookie-clicker/cookie1.jpeg",
-    "title": "Cookie Clicker"
+    "title": "Cookie Clicker",
+    "hot": "true"
   },
   {
     "link": "projects/craftmine/index.html",
@@ -427,7 +429,8 @@
   {
     "link": "projects/motox3m/index.html",
     "imgSrc": "projects/motox3m/splash.jpg",
-    "title": "MotoX3M"
+    "title": "MotoX3M",
+    "hot": "true"
   },
   {
     "link": "projects/motox3m-pool/index.html",
@@ -532,7 +535,8 @@
   {
     "link": "projects/slope/index.html",
     "imgSrc": "projects/slope/slope4.jpeg",
-    "title": "Slope"
+    "title": "Slope",
+    "hot": "true"
   },
   {
     "link": "projects/sm64/index.html",
@@ -667,7 +671,8 @@
   {
     "link": "projects/tunnel-rush/index.html",
     "imgSrc": "projects/tunnel-rush/img/tunnel.jpg",
-    "title": "Tunnel Rush"
+    "title": "Tunnel Rush",
+    "hot": "true"
   },
   {
     "link": "projects/tv-static/index.html",
@@ -692,7 +697,8 @@
   {
     "link": "projects/vex6/index.html",
     "imgSrc": "projects/vex6/assets/icon.jpeg",
-    "title": "Vex 6"
+    "title": "Vex 6",
+    "hot": "true"
   },
   {
     "link": "projects/webretro-local/index.html",

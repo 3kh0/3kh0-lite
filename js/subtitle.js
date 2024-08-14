@@ -35,6 +35,9 @@ function getRandomGreeting() {
     "You're a real jerk!",
     "w h a t",
     "3kh0.net is here!",
+    "3kh0v5 is out!!!",
+    "v5.3kh0.net",
+    "silvereen totally didnt put this here... 🥚",
     "what the dog doin?",
     "I'm gonna pop some tags",
     "Shoutout to 4chan!",
@@ -78,6 +81,8 @@ function getRandomGreeting() {
     "Mission failed, we will get them next time",
     "NUKE INCOMING!",
     "I spent too much time making these",
+    "<h1>E</h1>",
+    "the odds of you getting this message is 1:82"
   ];
   var randomIndex = Math.floor(Math.random() * greetings.length);
   return greetings[randomIndex];
