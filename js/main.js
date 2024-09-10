@@ -6,7 +6,7 @@ console.warn(
 
 // this setting controls if ads are shown,
 // more info on the README.md file
-var adStatus = localStorage.getItem("adConsent") === 'true'; // default: true
+var adStatus = localStorage.getItem("adConsent") === "true"; // default: true
 
 if (!adStatus) {
   (function () {
@@ -18,6 +18,12 @@ if (!adStatus) {
     console.log("Ads enabled, thank you for your support!");
   })();
 }
+
+const script = document.createElement("script");
+script.src = "https://data.3kh0.net/script.js";
+script.defer = true;
+script.setAttribute("data-website-id", "47d72bde-ba44-4125-b161-00e0c2f5b7f0");
+document.head.appendChild(script);
 
 const local_title = localStorage.getItem("title");
 const local_icon = localStorage.getItem("icon");
