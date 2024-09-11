@@ -24,6 +24,10 @@ script.src = "https://data.3kh0.net/script.js";
 script.defer = true;
 script.setAttribute("data-website-id", "47d72bde-ba44-4125-b161-00e0c2f5b7f0");
 document.head.appendChild(script);
+script.onload = function() {
+  console.log("Data script loaded");
+  umami.track([location.hostname, "pageview"].join("/"));
+};
 
 const local_title = localStorage.getItem("title");
 const local_icon = localStorage.getItem("icon");
