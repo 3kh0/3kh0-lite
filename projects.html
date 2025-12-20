@@ -14,136 +14,272 @@
     <link rel="shortcut-icon" href="/favicon.ico" />
     <script src="/js/main.js"></script>
     <style>
-      p {
-        text-align: center;
+      :root {
+        --bg-primary: #121212;
+        --text-primary: #ffffff;
+        --card-bg: #1e1e1e;
+        --card-hover: #2a2a2a;
+        --accent-green: #22c55e;
+        --accent-purple: #b625cc;
+        --border-radius: 16px;
+        --transition: all 0.3s ease;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+        font-family: 'Segoe UI', system-ui, sans-serif;
+        line-height: 1.6;
+        padding: 2rem 1rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+      }
+
+      #search {
+        width: 100%;
         max-width: 600px;
-        margin: 20px auto;
-      }
-      button {
-        cursor: pointer;
-        background-color: #22c55e;
+        padding: 12px 24px;
+        font-size: 1rem;
         border: none;
+        border-radius: 50px;
+        background: #2d2d2d;
         color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 20px;
-        margin-top: 20px;
+        margin: 0 auto 2rem;
+        display: block;
+        transition: var(--transition);
       }
-      .game-link {
-        height: 400px;
-        width: 300px;
-        text-decoration: none;
+
+      #search:focus {
+        outline: 2px solid var(--accent-green);
+        background: #333;
       }
-      .game-tile {
-        background-color: #949494;
-        height: 400px;
-        width: 300px;
-        border-radius: 30px;
+
+      #loader {
+        display: block;
+        border: 6px solid #333;
+        border-top: 6px solid var(--accent-green);
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        animation: spin 1s linear infinite;
+        margin: 2rem auto;
       }
-      .game-icon {
-        border-radius: 30px;
-        width: 300px;
-        height: 300px;
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
       }
-      .game-title {
-        font-size: 30px;
-        font-weight: bold;
-        color: #000000;
-        text-align: center;
-        margin: auto;
-      }
+
       .flex-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.8rem;
+        justify-items: center;
+      }
+
+      .game-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .game-tile {
+        background: var(--card-bg);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+        transition: var(--transition);
         display: flex;
-        flex-direction: row;
-        order: 0;
-        flex-grow: 0;
-        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .game-tile:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        background: var(--card-hover);
+      }
+
+      .game-icon {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 1px solid #333;
+      }
+
+      .game-title {
+        padding: 1rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
         align-items: center;
         justify-content: center;
       }
-      .container {
-        padding: 10px;
+
+      /* Buttons */
+      .btn {
+        cursor: pointer;
+        background-color: var(--accent-green);
+        border: none;
+        color: white;
+        padding: 12px 28px;
+        font-size: 1rem;
+        border-radius: 50px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+        font-weight: 600;
       }
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
+
+      .btn:hover {
+        background-color: #1da54d;
+        transform: scale(1.03);
+      }
+
+      .btn-purple {
+        background-color: var(--accent-purple);
+      }
+
+      .btn-purple:hover {
+        background-color: #9b1fb4;
+      }
+
+      .action-buttons {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      #back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: var(--accent-purple);
+        color: white;
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        cursor: pointer;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        z-index: 100;
+        transition: var(--transition);
+      }
+
+      #back-to-top:hover {
+        background: #9b1fb4;
+        transform: translateY(-3px);
+      }
+
+      /* Responsive */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2rem;
         }
-        100% {
-          transform: rotate(360deg);
+        .game-icon {
+          height: 180px;
         }
       }
     </style>
   </head>
-  <body style="background-color: #121212; color: #ffffff; font-family: sans-serif; text-decoration: none; text-align: center;">
-    <h1 style="font-size: 3em; text-align: center;">Projects</h1>
-    <input type="text" id="search" onkeyup="searchGames()" placeholder="Search for games..." style="width: 100%; font-size: 18px; padding: 6px 20px; margin: auto; border-radius: 30px; max-width: 600px; margin-bottom: 10px;" />
-    <div id="loader" style="display: block; border: 16px solid #f3f3f3; border-top: 16px solid #3498db; border-radius: 50%; width: 120px; height: 120px; animation: spin 0.3s linear infinite; margin: auto; margin-top: 1rem;"></div>
+  <body>
+    <h1>Projects</h1>
+
+    <input
+      type="text"
+      id="search"
+      onkeyup="searchGames()"
+      placeholder="Search for games..."
+    />
+
+    <div id="loader"></div>
+
     <div id="game-container" class="flex-container"></div>
-    <p class="text-center">
-      <a href="/index.html" style="text-decoration: none;">
-        <button style="cursor: pointer; background-color: #b625cc; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 20px; margin-top: 5px;">
-          Go to the homepage
-        </button>
-      </a>
-    </p>
-    <button id="back-to-top" style="display: none; position: fixed; bottom: 20px; right: 20px;">Back to top</button>
+
+    <div class="action-buttons">
+      <a href="/index.html" class="btn btn-purple">Go to the homepage</a>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
     <script>
       let games = [];
+      const gameContainer = document.getElementById("game-container");
+      const loader = document.getElementById("loader");
+
       fetch("config/games.json")
-      .then((response) => response.json())
-      .then((data) => {
-        games = data;
-        const container = document.getElementById("game-container");
-        data.forEach((project) => {
-          const game = document.createElement("a");
-          game.href = project.link;
-            game.className = "game-link container";
-            game.innerHTML = `
-            <div class="game-tile">
-              <img class="game-icon" src="${project.imgSrc}" alt="icon" />
-              <p class="game-title">${project.title}</p>
-              </div>`;
-              container.appendChild(game);
-          });
-          document.getElementById("loader").style.display = "none";
+        .then((response) => response.json())
+        .then((data) => {
+          games = data;
+          renderGames(data);
+          loader.style.display = "none";
         })
-        .catch((error) => console.error("Error:", error));
+        .catch((error) => {
+          console.error("Error loading games:", error);
+          loader.innerHTML = "Failed to load games.";
+          loader.style.border = "none";
+          loader.style.color = "red";
+        });
+
+      function renderGames(gameList) {
+        gameContainer.innerHTML = "";
+        gameList.forEach((project) => {
+          const gameLink = document.createElement("a");
+          gameLink.href = project.link;
+          gameLink.className = "game-link";
+          gameLink.innerHTML = `
+            <div class="game-tile">
+              <img class="game-icon" src="${project.imgSrc}" alt="${project.title} icon" loading="lazy" />
+              <div class="game-title">${project.title}</div>
+            </div>
+          `;
+          gameContainer.appendChild(gameLink);
+        });
+      }
 
       function searchGames() {
-        const input = document.getElementById("search");
-        const filter = input.value.toUpperCase();
-        const container = document.getElementById("game-container");
-        container.innerHTML = "";
-        games
-          .filter((game) => game.title.toUpperCase().includes(filter))
-          .forEach((project) => {
-            const game = document.createElement("a");
-            game.href = project.link;
-            game.className = "game-link container";
-            game.innerHTML = `
-            <div class="game-tile">
-              <img class="game-icon" src="${project.imgSrc}" alt="icon" loading="lazy" />
-              <p class="game-title">${project.title}</p>
-              </div>`;
-            container.appendChild(game);
-          });
-        }
-        const backToTopButton = document.getElementById('back-to-top');
-        window.onscroll = function () {
-          if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            backToTopButton.style.display = "block";
-          } else {
+        const query = document.getElementById("search").value.trim().toLowerCase();
+        const filtered = games.filter((game) =>
+          game.title.toLowerCase().includes(query)
+        );
+        renderGames(filtered);
+      }
+
+      // Back to top button
+      const backToTopButton = document.getElementById("back-to-top");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+          backToTopButton.style.display = "flex";
+        } else {
           backToTopButton.style.display = "none";
         }
-      };
+      });
 
-      backToTopButton.onclick = function () {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      };
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
     </script>
   </body>
 </html>
